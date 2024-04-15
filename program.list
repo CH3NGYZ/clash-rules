@@ -7,3 +7,5 @@ DOMAIN-KEYWORD,anaconda
 DOMAIN-KEYWORD,ubuntu
 DOMAIN-KEYWORD,debian
 DOMAIN-KEYWORD,docker
+DOMAIN-SUFFIX,vscode-unpkg.net
+DOMAIN-SUFFIX,vscode-cdn.net
