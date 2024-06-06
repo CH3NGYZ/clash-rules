@@ -1,9 +1,9 @@
 DOMAIN-SUFFIX,onekey.so
 DOMAIN-SUFFIX,character.ai
 DOMAIN-SUFFIX,bad.news
-DOMAIN,dl.tailscale.com
 DOMAIN-SUFFIX,d-id.com
 DOMAIN-SUFFIX,txtnovel.vip
 DOMAIN-SUFFIX,steamdb.info
 DOMAIN-SUFFIX,bulianglin.com
-DOMAIN-SUFFIX,login.tailscale.com
+DOMAIN,dl.tailscale.com
+DOMAIN,login.tailscale.com
