@@ -18,8 +18,6 @@ DOMAIN-SUFFIX,tailscale.com
 DOMAIN-KEYWORD,tailscale
 # ghproxy
 DOMAIN-KEYWORD,ghproxy
-# epic-download
-DOMAIN-KEYWORD,epicgames-download
 #steam挂刀
 DOMAIN-SUFFIX,iflow.work
 #copilot激活
