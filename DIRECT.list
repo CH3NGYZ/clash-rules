@@ -10,8 +10,6 @@ PROCESS-NAME,WeChat.exe
 PROCESS-NAME,QQ.exe
 # 千千百度下载助手
 DOMAIN-SUFFIX,qianqian.club
-# cloudflare
-DOMAIN-KEYWORD,cloudflare
 # tailscale
 DOMAIN-SUFFIX,tailscale.io
 DOMAIN-SUFFIX,tailscale.com
