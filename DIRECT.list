@@ -16,11 +16,13 @@ DOMAIN-SUFFIX,tailscale.com
 DOMAIN-KEYWORD,tailscale
 # ghproxy
 DOMAIN-KEYWORD,ghproxy
-#steam挂刀
+# steam挂刀
 DOMAIN-SUFFIX,iflow.work
-#copilot激活
+# copilot激活
 DOMAIN-SUFFIX,githubedu.top
-#杭州市民卡
+# 杭州市民卡
 DOMAIN-SUFFIX,iconntech.com
-#cloudflare
+# cloudflare
 DOMAIN-SUFFIX,ch3ng.top
+# nvidia
+DOMAIN-SUFFIX,download.nvidia.com
