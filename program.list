@@ -5,6 +5,6 @@ DOMAIN-KEYWORD,anaconda
 DOMAIN-KEYWORD,ubuntu
 DOMAIN-KEYWORD,debian
 DOMAIN-KEYWORD,docker
-DOMAIN-SUFFIX,cloudflare.docker.com
+DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,vscode-unpkg.net
 DOMAIN-SUFFIX,vscode-cdn.net
