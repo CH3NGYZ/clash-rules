@@ -9,3 +9,4 @@ DOMAIN,dl.tailscale.com
 DOMAIN,login.tailscale.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,weights.com
