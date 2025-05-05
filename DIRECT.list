@@ -26,3 +26,5 @@ DOMAIN-SUFFIX,iconntech.com
 DOMAIN-SUFFIX,ch3ng.top
 # nvidia
 DOMAIN-SUFFIX,download.nvidia.com
+# Weights下载模型
+DOMAIN-SUFFIX,cloudflarestorage.com
