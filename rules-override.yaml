@@ -1,0 +1,252 @@
+rule-providers:
+  LocalAreaNetwork (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0
+    path: ./providers/7156953299935574564_domain.yaml
+    interval: 86400
+  LocalAreaNetwork (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0
+    path: ./providers/7156953299935574564_ipcidr.yaml
+    interval: 86400
+  UnBan (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVW5CYW4ubGlzdA
+    path: ./providers/7573362162235439048_domain.yaml
+    interval: 86400
+  BanAD (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuQUQubGlzdA
+    path: ./providers/5345470858595246832_domain.yaml
+    interval: 86400
+  BanProgramAD (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q
+    path: ./providers/12627286518854712958_domain.yaml
+    interval: 86400
+  BanProgramAD (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q
+    path: ./providers/12627286518854712958_ipcidr.yaml
+    interval: 86400
+  GoogleFCM (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Hb29nbGVGQ00ubGlzdA
+    path: ./providers/13526767378282193442_domain.yaml
+    interval: 86400
+  GoogleFCM (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Hb29nbGVGQ00ubGlzdA
+    path: ./providers/13526767378282193442_ipcidr.yaml
+    interval: 86400
+  GoogleCN (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA
+    path: ./providers/18094093153187793194_domain.yaml
+    interval: 86400
+  SteamCN (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q
+    path: ./providers/9218514496462299588_domain.yaml
+    interval: 86400
+  Microsoft (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTWljcm9zb2Z0Lmxpc3Q
+    path: ./providers/10538434793549721944_domain.yaml
+    interval: 86400
+  Apple (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA
+    path: ./providers/14560487744959213540_domain.yaml
+    interval: 86400
+  Apple (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA
+    path: ./providers/14560487744959213540_ipcidr.yaml
+    interval: 86400
+  Telegram (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA
+    path: ./providers/6502624741183612233_domain.yaml
+    interval: 86400
+  Telegram (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA
+    path: ./providers/6502624741183612233_ipcidr.yaml
+    interval: 86400
+  ProxyMedia (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0
+    path: ./providers/11865208451954205364_domain.yaml
+    interval: 86400
+  ProxyMedia (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0
+    path: ./providers/11865208451954205364_ipcidr.yaml
+    interval: 86400
+  ProxyLite (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlMaXRlLmxpc3Q
+    path: ./providers/2797519971897865672_domain.yaml
+    interval: 86400
+  ProxyLite (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlMaXRlLmxpc3Q
+    path: ./providers/2797519971897865672_ipcidr.yaml
+    interval: 86400
+  ChinaDomain (Domain):
+    type: http
+    behavior: domain
+    url: https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA
+    path: ./providers/4162648423616508953_domain.yaml
+    interval: 86400
+  ChinaDomain (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA
+    path: ./providers/4162648423616508953_ipcidr.yaml
+    interval: 86400
+  ChinaCompanyIp (IP-CIDR):
+    type: http
+    behavior: ipcidr
+    url: https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFDb21wYW55SXAubGlzdA
+    path: ./providers/2560834305431378741_ipcidr.yaml
+    interval: 86400
+rules:
+  - RULE-SET,LocalAreaNetwork (Domain),🎯 全球直连
+  - RULE-SET,LocalAreaNetwork (IP-CIDR),🎯 全球直连,no-resolve
+  - RULE-SET,UnBan (Domain),🎯 全球直连
+  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
+  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
+  - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+  - DOMAIN-KEYWORD,applovin,🛑 全球拦截
+  - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
+  - DOMAIN-KEYWORD,domob,🛑 全球拦截
+  - DOMAIN-KEYWORD,duomeng,🛑 全球拦截
+  - DOMAIN-KEYWORD,dwtrack,🛑 全球拦截
+  - DOMAIN-KEYWORD,guanggao,🛑 全球拦截
+  - DOMAIN-KEYWORD,omgmta,🛑 全球拦截
+  - DOMAIN-KEYWORD,omniture,🛑 全球拦截
+  - DOMAIN-KEYWORD,openx,🛑 全球拦截
+  - DOMAIN-KEYWORD,partnerad,🛑 全球拦截
+  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
+  - DOMAIN-KEYWORD,socdm,🛑 全球拦截
+  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
+  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
+  - RULE-SET,BanAD (Domain),🛑 全球拦截
+  - DOMAIN-KEYWORD,omgmtaw,🍃 应用净化
+  - RULE-SET,BanProgramAD (Domain),🍃 应用净化
+  - RULE-SET,BanProgramAD (IP-CIDR),🍃 应用净化,no-resolve
+  - RULE-SET,GoogleFCM (Domain),📢 谷歌FCM
+  - RULE-SET,GoogleFCM (IP-CIDR),📢 谷歌FCM,no-resolve
+  - RULE-SET,GoogleCN (Domain),🎯 全球直连
+  - RULE-SET,SteamCN (Domain),🎯 全球直连
+  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
+  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Microsoft (Domain),Ⓜ️ 微软服务
+  - RULE-SET,Apple (Domain),🍎 苹果服务
+  - RULE-SET,Apple (IP-CIDR),🍎 苹果服务,no-resolve
+  - RULE-SET,Telegram (Domain),📲 电报信息
+  - RULE-SET,Telegram (IP-CIDR),📲 电报信息,no-resolve
+  - DOMAIN-KEYWORD,anthropic,🌍 国外媒体
+  - DOMAIN-KEYWORD,claude,🌍 国外媒体
+  - DOMAIN-KEYWORD,openai,🌍 国外媒体
+  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
+  - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
+  - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
+  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
+  - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
+  - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
+  - DOMAIN-KEYWORD,japonx,🌍 国外媒体
+  - DOMAIN-KEYWORD,japronx,🌍 国外媒体
+  - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
+  - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
+  - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
+  - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
+  - DOMAIN-KEYWORD,nivod,🌍 国外媒体
+  - DOMAIN-KEYWORD,olevod,🌍 国外媒体
+  - DOMAIN-KEYWORD,openai,🌍 国外媒体
+  - DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
+  - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
+  - DOMAIN-KEYWORD,ttvnw,🌍 国外媒体
+  - DOMAIN-KEYWORD,youtube,🌍 国外媒体
+  - RULE-SET,ProxyMedia (Domain),🌍 国外媒体
+  - RULE-SET,ProxyMedia (IP-CIDR),🌍 国外媒体,no-resolve
+  - DOMAIN-KEYWORD,1e100,🚀 节点选择
+  - DOMAIN-KEYWORD,abema,🚀 节点选择
+  - DOMAIN-KEYWORD,appledaily,🚀 节点选择
+  - DOMAIN-KEYWORD,avtb,🚀 节点选择
+  - DOMAIN-KEYWORD,beetalk,🚀 节点选择
+  - DOMAIN-KEYWORD,blogspot,🚀 节点选择
+  - DOMAIN-KEYWORD,dropbox,🚀 节点选择
+  - DOMAIN-KEYWORD,facebook,🚀 节点选择
+  - DOMAIN-KEYWORD,fbcdn,🚀 节点选择
+  - DOMAIN-KEYWORD,github,🚀 节点选择
+  - DOMAIN-KEYWORD,gmail,🚀 节点选择
+  - DOMAIN-KEYWORD,google,🚀 节点选择
+  - DOMAIN-KEYWORD,instagram,🚀 节点选择
+  - DOMAIN-KEYWORD,porn,🚀 节点选择
+  - DOMAIN-KEYWORD,sci-hub,🚀 节点选择
+  - DOMAIN-KEYWORD,spotify,🚀 节点选择
+  - DOMAIN-KEYWORD,telegram,🚀 节点选择
+  - DOMAIN-KEYWORD,twitter,🚀 节点选择
+  - DOMAIN-KEYWORD,whatsapp,🚀 节点选择
+  - DOMAIN-KEYWORD,youtube,🚀 节点选择
+  - DOMAIN-KEYWORD,uk-live,🚀 节点选择
+  - DOMAIN-KEYWORD,1drv,🚀 节点选择
+  - DOMAIN-KEYWORD,onedrive,🚀 节点选择
+  - DOMAIN-KEYWORD,skydrive,🚀 节点选择
+  - DOMAIN-KEYWORD,porn,🚀 节点选择
+  - DOMAIN-KEYWORD,ttvnw,🚀 节点选择
+  - RULE-SET,ProxyLite (Domain),🚀 节点选择
+  - RULE-SET,ProxyLite (IP-CIDR),🚀 节点选择,no-resolve
+  - DOMAIN-KEYWORD,360buy,🎯 全球直连
+  - DOMAIN-KEYWORD,alicdn,🎯 全球直连
+  - DOMAIN-KEYWORD,alimama,🎯 全球直连
+  - DOMAIN-KEYWORD,alipay,🎯 全球直连
+  - DOMAIN-KEYWORD,appzapp,🎯 全球直连
+  - DOMAIN-KEYWORD,baidupcs,🎯 全球直连
+  - DOMAIN-KEYWORD,bilibili,🎯 全球直连
+  - DOMAIN-KEYWORD,ccgslb,🎯 全球直连
+  - DOMAIN-KEYWORD,chinacache,🎯 全球直连
+  - DOMAIN-KEYWORD,duobao,🎯 全球直连
+  - DOMAIN-KEYWORD,jdpay,🎯 全球直连
+  - DOMAIN-KEYWORD,moke,🎯 全球直连
+  - DOMAIN-KEYWORD,qhimg,🎯 全球直连
+  - DOMAIN-KEYWORD,vpimg,🎯 全球直连
+  - DOMAIN-KEYWORD,xiami,🎯 全球直连
+  - DOMAIN-KEYWORD,xiaomi,🎯 全球直连
+  - RULE-SET,ChinaDomain (Domain),🎯 全球直连
+  - RULE-SET,ChinaDomain (IP-CIDR),🎯 全球直连,no-resolve
+  - RULE-SET,ChinaCompanyIp (IP-CIDR),🎯 全球直连,no-resolve
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
