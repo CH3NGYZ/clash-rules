@@ -1,10 +1,4 @@
-DOMAIN-SUFFIX,pypi.org
 DOMAIN-KEYWORD,jetbrains
-DOMAIN-KEYWORD,pytorch
 DOMAIN-KEYWORD,anaconda
-DOMAIN-KEYWORD,ubuntu
-DOMAIN-KEYWORD,debian
-DOMAIN-KEYWORD,docker
-DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,vscode-unpkg.net
 DOMAIN-SUFFIX,vscode-cdn.net
