@@ -63,7 +63,7 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 dns:
-  enable: true                 # 启用 DNS 解析功能
+  enable: false                # 启用 DNS 解析功能
   ipv6: false                  # 禁用 IPv6，避免部分 DNS 异常
   listen: 127.0.0.1:53         # 建议监听本地，避免局域网 DNS 冲突
   enhanced-mode: fake-ip       # 推荐使用 fake-ip 模式提升分流效率
