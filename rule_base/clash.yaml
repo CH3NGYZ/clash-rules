@@ -46,8 +46,8 @@ external-controller: '127.0.0.1:12320'
 # secret: ""
 
 # 实验性功能
-experimental:
-  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+# experimental:
+#   ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
   # interface-name: en0 # outbound interface name
 
 # 本地 SOCKS5 / HTTP(S) 服务认证
@@ -63,7 +63,7 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 dns:
-  enable: false                # 启用 DNS 解析功能
+  enable: true                # 启用 DNS 解析功能
   ipv6: false                  # 禁用 IPv6，避免部分 DNS 异常
   listen: 127.0.0.1:53         # 建议监听本地，避免局域网 DNS 冲突
   enhanced-mode: fake-ip       # 推荐使用 fake-ip 模式提升分流效率
@@ -112,6 +112,13 @@ dns:
     - https://dns.quad9.net/dns-query
     - https://dns.adguard.com/dns-query
     - https://doh.dns.sb/dns-query
+    - tls://1.1.1.1
+    - tls://8.8.8.8
+    - tls://9.9.9.9
+    - 8.8.8.8
+    - 1.1.1.1
+    - 9.9.9.9
+    - 185.222.222.222
   fallback-filter:
     geoip: true
     ipcidr:
@@ -121,7 +128,42 @@ dns:
       - 182.43.124.6/32
       - 106.74.25.198/32
     domain:
-      - +.bianyuan.xyz
-      - +.happynothings031.xyz
-      - +.jsdelivr.net
+      - +.google.com
+      - +.gvt1.com
+      - +.gstatic.com
+      - +.youtube.com
+      - +.ytimg.com
+      - +.googlevideo.com
+      - +.facebook.com
+      - +.fbcdn.net
+      - +.twitter.com
+      - +.t.co
+      - +.twimg.com
+      - +.telegram.org
+      - +.tdesktop.com
       - +.proton.me
+      - +.protonvpn.net
+      - +.protonmail.com
+      - +.cloudflare.com
+      - +.cloudflare-dns.com
+      - +.1dot1dot1dot1.cloudflare-dns.com
+      - +.openai.com
+      - +.chatgpt.com
+      - +.github.com
+      - +.github.io
+      - +.githubusercontent.com
+      - +.gitlab.com
+      - +.jsdelivr.net
+      - +.npmjs.com
+      - +.fastly.net
+      - +.vercel.app
+      - +.netlify.app
+      - +.sentry.io
+      - +.bitbucket.org
+      - +.dropbox.com
+      - +.discord.com
+      - +.discordapp.com
+      - +.slack.com
+      - +.zoom.us
+      - +.wikipedia.org
+      - +.wikimedia.org
