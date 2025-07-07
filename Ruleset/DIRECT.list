@@ -28,3 +28,5 @@ DOMAIN-SUFFIX,ch3ng.top
 DOMAIN-SUFFIX,download.nvidia.com
 # Weights下载模型
 DOMAIN-SUFFIX,cloudflarestorage.com
+# 手机连接
+PROCESS-NAME,PhoneExperienceHost.exe
