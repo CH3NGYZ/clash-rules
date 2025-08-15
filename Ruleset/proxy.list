@@ -9,4 +9,7 @@ DOMAIN,dl.tailscale.com
 DOMAIN,login.tailscale.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,discord.com
+# 模型网站
 DOMAIN-SUFFIX,weights.com
+# 爪云
+DOMAIN-SUFFIX,claw.cloud
