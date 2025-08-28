@@ -28,3 +28,5 @@ DOMAIN-SUFFIX,download.nvidia.com
 DOMAIN-SUFFIX,cloudflarestorage.com
 # 手机连接
 PROCESS-NAME,PhoneExperienceHost.exe
+# Ableton
+DOMAIN-SUFFIX,ableton.com
