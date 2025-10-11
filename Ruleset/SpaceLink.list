@@ -1,10 +1,14 @@
 DOMAIN-SUFFIX,spacelink.pro
 DOMAIN-SUFFIX,ipapi.co
+# weee
 DOMAIN-SUFFIX,sayweee.com
 DOMAIN-SUFFIX,sayweee.net
 DOMAIN-SUFFIX,weeecdn.com
 DOMAIN-SUFFIX,weeecdn.net
 DOMAIN-SUFFIX,temu.com
+# 税务计算
 DOMAIN-SUFFIX,taxjar.com
+# AI工具
+DOMAIN-SUFFIX,craftly.xyz
 DOMAIN-KEYWORD,spacelink
 
