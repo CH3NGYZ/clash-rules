@@ -31,4 +31,6 @@ PROCESS-NAME,PhoneExperienceHost.exe
 # Ableton
 DOMAIN-SUFFIX,ableton.com
 # 沉浸式翻译
-immersivetranslate.com
+DOMAIN-SUFFIX,immersivetranslate.com
+# NFTY通知
+DOMAIN-SUFFIX,ntfy.sh
