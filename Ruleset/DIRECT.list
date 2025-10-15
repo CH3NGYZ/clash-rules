@@ -34,3 +34,5 @@ DOMAIN-SUFFIX,ableton.com
 DOMAIN-SUFFIX,immersivetranslate.com
 # NFTY通知
 DOMAIN-SUFFIX,ntfy.sh
+# gh-proxy
+gh-proxy.com
