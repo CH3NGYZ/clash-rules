@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX,spacelink.pro
+# 检测IP
 DOMAIN-SUFFIX,ipapi.co
 # weee
 DOMAIN-SUFFIX,sayweee.com
@@ -10,4 +10,3 @@ DOMAIN-SUFFIX,temu.com
 DOMAIN-SUFFIX,taxjar.com
 # AI工具
 DOMAIN-SUFFIX,craftly.xyz
-DOMAIN-KEYWORD,spacelink
