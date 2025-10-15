@@ -1,3 +1,5 @@
+# NTP授时服务端口123
+DST-PORT,123
 # jetbrains codewithme
 DOMAIN-KEYWORD,codewithme
 DOMAIN-KEYWORD,code-with-me
