@@ -48,8 +48,8 @@ external-controller: '127.0.0.1:12320'
 #   - 端口号 12320 可自定义
 
 # === 测速配置 ===
-proxy-test-url: http://connectivitycheck.gstatic.com/generate_204          # 国外测速
-internet-test-url: http://connectivitycheck.platform.hicloud.com/generate_204   # 国内测速
+proxy-test-url: http://www.google.com/generate_204
+internet-test-url: http://connectivitycheck.platform.hicloud.com/generate_204
 
 # === DNS 设置 ===
 dns:
