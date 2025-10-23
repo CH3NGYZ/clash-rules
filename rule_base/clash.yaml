@@ -31,9 +31,8 @@ ipv6: false
 
 mode: rule
 # Clash 工作模式
-#   - global：所有流量走代理
-#   - rule：根据规则匹配决定走代理或直连（推荐）
-#   - direct：所有流量直连，不走代理
+#   - 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+
 
 log-level: warning
 # 日志等级
@@ -55,7 +54,7 @@ switch-node-after-failure-times: 3
 
 # === 测速配置 ===
 proxy-test-url: https://www.google.com/generate_204
-internet-test-url: http://connectivitycheck.platform.hicloud.com/generate_204
+internet-test-url: https://www.google.com/generate_204
 
 # === DNS 设置 ===
 dns:
