@@ -34,3 +34,5 @@ DOMAIN-SUFFIX,claw.cloud
 DOMAIN-SUFFIX,koyeb.com
 # tampermonkey.net
 DOMAIN-SUFFIX,tampermonkey.net
+# postman
+DOMAIN-SUFFIX,getpostman.com
