@@ -36,3 +36,5 @@ DOMAIN-SUFFIX,koyeb.com
 DOMAIN-SUFFIX,tampermonkey.net
 # postman
 DOMAIN-SUFFIX,getpostman.com
+# jsdelivr.net
+DOMAIN-SUFFIX,jsdelivr.net

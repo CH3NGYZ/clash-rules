@@ -18,7 +18,7 @@ allow-lan: true
 #   - true：允许同一局域网设备使用代理
 #   - false：仅限本机访问
 
-bind-address: "*"
+bind-address: '*'
 # 绑定监听地址
 #   - "*" 表示监听所有网卡（0.0.0.0）
 #   - "127.0.0.1" 表示仅本机访问
@@ -42,13 +42,19 @@ log-level: warning
 #   - error：仅输出错误
 #   - silent：不输出日志
 
-external-controller: '127.0.0.1:12320'
+external-controller: '0.0.0.0:12320'
 # 外部控制端口（用于面板或 API 控制 Clash）
 #   - 127.0.0.1 表示仅本机可访问
 #   - 端口号 12320 可自定义
 
+disconnect-on-policy-change: true
+# 策略改变时候打断连接
+
+switch-node-after-failure-times: 3
+# 一个节点连接失败几次后会进行节点切换，默认 3 次
+
 # === 测速配置 ===
-proxy-test-url: http://www.apple.com/library/test/success.html
+proxy-test-url: https://www.google.com/generate_204
 internet-test-url: http://connectivitycheck.platform.hicloud.com/generate_204
 
 # === DNS 设置 ===
@@ -60,28 +66,28 @@ dns:
   fake-ip-range: 198.18.0.1/16
 
   fake-ip-filter:
-    - "localhost.ptlogin2.qq.com"
-    - "*.n.n.srv.nintendo.net"
-    - "+.stun.playstation.net"
-    - "xbox.*.*.microsoft.com"
-    - "*.msftncsi.com"
-    - "*.msftconnecttest.com"
-    - "WORKGROUP"
-    - "*.lan"
-    - "stun.*.*.*"
-    - "stun.*.*"
-    - "time.windows.com"
-    - "time.nist.gov"
-    - "time.apple.com"
-    - "time.asia.apple.com"
-    - "*.ntp.org.cn"
-    - "*.openwrt.pool.ntp.org"
-    - "time1.cloud.tencent.com"
-    - "time.ustc.edu.cn"
-    - "pool.ntp.org"
-    - "ntp.ubuntu.com"
-    - "*.*.xboxlive.com"
-    - "speedtest.cros.wr.pvp.net"
+    - 'localhost.ptlogin2.qq.com'
+    - '*.n.n.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.*.microsoft.com'
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    - 'WORKGROUP'
+    - '*.lan'
+    - 'stun.*.*.*'
+    - 'stun.*.*'
+    - 'time.windows.com'
+    - 'time.nist.gov'
+    - 'time.apple.com'
+    - 'time.asia.apple.com'
+    - '*.ntp.org.cn'
+    - '*.openwrt.pool.ntp.org'
+    - 'time1.cloud.tencent.com'
+    - 'time.ustc.edu.cn'
+    - 'pool.ntp.org'
+    - 'ntp.ubuntu.com'
+    - '*.*.xboxlive.com'
+    - 'speedtest.cros.wr.pvp.net'
 
   default-nameserver:
     - 223.5.5.5
