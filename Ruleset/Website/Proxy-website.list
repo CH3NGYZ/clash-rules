@@ -38,3 +38,5 @@ DOMAIN-SUFFIX,tampermonkey.net
 DOMAIN-SUFFIX,getpostman.com
 # jsdelivr.net
 DOMAIN-SUFFIX,jsdelivr.net
+# immortalwrt.org
+DOMAIN-SUFFIX,immortalwrt.org
