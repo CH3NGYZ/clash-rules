@@ -42,3 +42,5 @@ DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,immortalwrt.org
 # zashboard
 DOMAIN,board.zash.run.place
+# X浏览器
+PROCESS-NAME,com.mmbox.xbrowser
