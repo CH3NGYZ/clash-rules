@@ -1,0 +1,23 @@
+# jetbrains codewithme
+DOMAIN-KEYWORD,codewithme
+DOMAIN-KEYWORD,code-with-me
+# 节点转换
+DOMAIN-SUFFIX,v1.mk
+# tailscale
+DOMAIN-SUFFIX,tailscale.io
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-KEYWORD,tailscale
+# ghproxy
+DOMAIN-KEYWORD,ghproxy
+# nvidia
+DOMAIN-SUFFIX,download.nvidia.com
+# Weights下载模型
+DOMAIN-SUFFIX,cloudflarestorage.com
+# 手机连接
+PROCESS-NAME,PhoneExperienceHost.exe
+# Ableton
+DOMAIN-SUFFIX,ableton.com
+# NFTY通知
+DOMAIN-SUFFIX,ntfy.sh
+# gh-proxy
+gh-proxy.com

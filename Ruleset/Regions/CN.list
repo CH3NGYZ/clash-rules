@@ -1,0 +1,14 @@
+# 微信
+PROCESS-NAME,WeChat.exe
+# QQ
+PROCESS-NAME,QQ.exe
+# 千千百度下载助手
+DOMAIN-SUFFIX,qianqian.club
+# steam挂刀
+DOMAIN-SUFFIX,iflow.work
+# copilot激活
+DOMAIN-SUFFIX,githubedu.top
+# 杭州市民卡
+DOMAIN-SUFFIX,iconntech.com
+# 沉浸式翻译
+DOMAIN-SUFFIX,immersivetranslate.com

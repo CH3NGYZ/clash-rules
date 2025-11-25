@@ -1,0 +1,40 @@
+# jetbrains
+DOMAIN-KEYWORD,jetbrains
+# anaconda
+DOMAIN-KEYWORD,anaconda
+# vscode
+DOMAIN-SUFFIX,vscode-unpkg.net
+DOMAIN-SUFFIX,vscode-cdn.net
+# onekey
+DOMAIN-SUFFIX,onekey.so
+# ai网站
+DOMAIN-SUFFIX,character.ai
+# porn
+DOMAIN-SUFFIX,bad.news
+# 数字人
+DOMAIN-SUFFIX,d-id.com
+# 书香门第
+DOMAIN-SUFFIX,txtnovel.vip
+# steamdb
+DOMAIN-SUFFIX,steamdb.info
+# 不良林
+DOMAIN-SUFFIX,bulianglin.com
+# tailscale
+DOMAIN,dl.tailscale.com
+DOMAIN,login.tailscale.com
+# cf
+DOMAIN-SUFFIX,cloudflare.com
+# 模型网站
+DOMAIN-SUFFIX,weights.com
+# tampermonkey.net
+DOMAIN-SUFFIX,tampermonkey.net
+# postman
+DOMAIN-SUFFIX,getpostman.com
+# jsdelivr.net
+DOMAIN-SUFFIX,jsdelivr.net
+# immortalwrt.org
+DOMAIN-SUFFIX,immortalwrt.org
+# zashboard
+DOMAIN,board.zash.run.place
+# X浏览器
+PROCESS-NAME,com.mmbox.xbrowser

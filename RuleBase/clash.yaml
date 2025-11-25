@@ -1,0 +1,251 @@
+mixed-port: 12310
+# 混合端口（同时支持 HTTP / SOCKS5 / Transparent）
+#   - Clash 可以在一个端口同时接收 HTTP 和 SOCKS5 请求
+#   - 便于统一管理和内网设备访问
+
+port: 12311
+# HTTP 代理端口
+#   - 本机或局域网设备可通过此端口访问 HTTP 代理
+#   - 常用于浏览器、系统代理
+
+socks-port: 12312
+# SOCKS5 代理端口
+#   - 本机或局域网设备可通过此端口访问 SOCKS5 代理
+#   - 适用于支持 SOCKS5 的应用（如部分下载工具、游戏客户端）
+
+allow-lan: true
+# 是否允许局域网设备连接代理
+#   - true：允许同一局域网设备使用代理
+#   - false：仅限本机访问
+
+bind-address: '*'
+# 绑定监听地址
+#   - "*" 表示监听所有网卡（0.0.0.0）
+#   - "127.0.0.1" 表示仅本机访问
+#   - 若允许局域网访问，必须使用 "*" 或具体内网 IP
+
+ipv6: false
+# 是否启用 IPv6 支持
+#   - false：禁用 IPv6（避免部分节点或 DNS 请求超时）
+#   - true：启用 IPv6（如果节点支持）
+
+mode: rule
+# Clash 工作模式
+#   - 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+
+
+log-level: warning
+# 日志等级
+#   - info：输出详细信息，调试用
+#   - warning：仅输出警告与错误（推荐）
+#   - error：仅输出错误
+#   - silent：不输出日志
+
+external-controller: '0.0.0.0:12320'
+# 外部控制端口（用于面板或 API 控制 Clash）
+#   - 127.0.0.1 表示仅本机可访问
+#   - 端口号 12320 可自定义
+
+disconnect-on-policy-change: true
+# 策略改变时候打断连接
+
+switch-node-after-failure-times: 3
+# 一个节点连接失败几次后会进行节点切换，默认 3 次
+
+# === 测速配置 ===
+proxy-test-url: http://www.google.com/generate_204
+internet-test-url: http://www.google.com/generate_204
+
+# === DNS 设置 ===
+dns:
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+
+  fake-ip-filter:
+    - 'localhost.ptlogin2.qq.com'
+    - '*.n.n.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.*.microsoft.com'
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    - 'WORKGROUP'
+    - '*.lan'
+    - 'stun.*.*.*'
+    - 'stun.*.*'
+    - 'time.windows.com'
+    - 'time.nist.gov'
+    - 'time.apple.com'
+    - 'time.asia.apple.com'
+    - '*.ntp.org.cn'
+    - '*.openwrt.pool.ntp.org'
+    - 'time1.cloud.tencent.com'
+    - 'time.ustc.edu.cn'
+    - 'pool.ntp.org'
+    - 'ntp.ubuntu.com'
+    - '*.*.xboxlive.com'
+    - 'speedtest.cros.wr.pvp.net'
+
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+
+  nameserver:
+    - 223.5.5.5
+    - 180.76.76.76
+    - 119.29.29.29
+    - 117.50.11.11
+    - 117.50.10.10
+    - 114.114.114.114
+    - https://dns.alidns.com/dns-query
+    - https://doh.360.cn/dns-query
+    - https://doh.pub/dns-query
+
+  fallback:
+    - tls://1.1.1.1
+    - tls://8.8.8.8
+    - tls://9.9.9.9
+    - 185.222.222.222
+    - https://dns.rubyfish.cn/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://doh.dns.sb/dns-query
+
+  # === fallback-filter（国外站点列表）===
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+    domain:
+      # ==== 通用国外主流网站 ====
+      - +.google.com
+      - +.gstatic.com
+      - +.gmail.com
+      - +.youtube.com
+      - +.ytimg.com
+      - +.facebook.com
+      - +.fbcdn.net
+      - +.instagram.com
+      - +.whatsapp.com
+      - +.twitter.com
+      - +.x.com
+      - +.t.co
+      - +.telegram.org
+      - +.t.me
+      - +.snapchat.com
+      - +.reddit.com
+      - +.redditstatic.com
+      - +.tumblr.com
+      - +.pinterest.com
+      - +.quora.com
+      - +.medium.com
+      - +.linkedin.com
+      - +.duckduckgo.com
+      - +.openai.com
+      - +.chatgpt.com
+      - +.anthropic.com
+      - +.claude.ai
+      - +.perplexity.ai
+      - +.bard.google.com
+      - +.huggingface.co
+
+      # ==== 开发与技术类 ====
+      - +.github.com
+      - +.githubassets.com
+      - +.gitlab.com
+      - +.bitbucket.org
+      - +.sourceforge.net
+      - +.stackoverflow.com
+      - +.stackexchange.com
+      - +.npmjs.com
+      - +.pypi.org
+      - +.rubygems.org
+      - +.docker.com
+      - +.hub.docker.com
+      - +.cloudflare.com
+      - +.vercel.com
+      - +.netlify.app
+      - +.archive.org
+
+      # ==== 邮件、云端、办公 ====
+      - +.outlook.com
+      - +.office.com
+      - +.live.com
+      - +.hotmail.com
+      - +.zoom.us
+      - +.slack.com
+      - +.notion.so
+      - +.dropbox.com
+      - +.mega.nz
+      - +.googledrive.com
+      - +.box.com
+      - +.weebly.com
+      - +.wix.com
+
+      # ==== 娱乐与流媒体 ====
+      - +.spotify.com
+      - +.soundcloud.com
+      - +.deezer.com
+      - +.pandora.com
+      - +.twitch.tv
+      - +.netflix.com
+      - +.hulu.com
+      - +.disneyplus.com
+      - +.hbomax.com
+      - +.max.com
+      - +.paramountplus.com
+      - +.peacocktv.com
+      - +.primevideo.com
+      - +.applemusic.com
+      - +.music.apple.com
+      - +.itunes.apple.com
+      - +.vimeo.com
+      - +.dailymotion.com
+
+      # ==== 游戏与 CDN ====
+      - +.steamcommunity.com
+      - +.steampowered.com
+      - +.epicgames.com
+      - +.riotgames.com
+      - +.playstation.com
+      - +.xboxlive.com
+      - +.nintendo.net
+      - +.battle.net
+      - +.blizzard.com
+      - +.origin.com
+      - +.ea.com
+      - +.taptap.io
+
+      # ==== 通讯与工具 ====
+      - +.discord.com
+      - +.signal.org
+      - +.zoom.us
+      - +.skype.com
+      - +.teams.microsoft.com
+      - +.meet.google.com
+
+      # ==== 新闻与信息 ====
+      - +.bbc.com
+      - +.cnn.com
+      - +.nytimes.com
+      - +.bloomberg.com
+      - +.reuters.com
+      - +.economist.com
+      - +.guardian.co.uk
+      - +.washingtonpost.com
+      - +.time.com
+      - +.wsj.com
+      - +.vox.com
+      - +.nbcnews.com
+      - +.abcnews.com
+      - +.forbes.com
+      - +.theatlantic.com
+
+experimental:
+  ignore-resolve-fail: true
