@@ -156,10 +156,10 @@ replace = "$1x"
 write_managed_config = true
 
 # Address prefix for MANAGED-CONFIG info, without the trailing "/".
-managed_config_prefix = "http://127.0.0.1:25500"
+managed_config_prefix = "https://medieval-rodina-ch3ng-e47e5fa7.koyeb.app"
 
 # Managed config update interval in seconds, determine how long the config will be updated.
-config_update_interval = 10800
+config_update_interval = 1800
 
 # If config_update_strict is set to true, Surge will require a force update after the interval.
 config_update_strict = false
