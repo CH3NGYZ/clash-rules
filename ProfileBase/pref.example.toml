@@ -214,7 +214,7 @@ enabled = true
 overwrite_original_rules = false
 
 # Perform a ruleset update on request
-update_ruleset_on_request = false
+update_ruleset_on_request = true
 
 # [[rulesets]]
 # group = "Proxy"
